@@ -110,6 +110,7 @@ mkdir ~/.password-store
 sudo umount ~/usb
 
 #Export secret keys for the pass utility
+gpg --list-secret-keys
 gpg --output MY_FILENAME_public.gpg --armor --export GPG_PUB_KEY
 gpg --output MY_FILENAME_secret.gpg --armor --export-secret-key GPG_PUB_KEY
 #Copy the output files to the usb flash drive
