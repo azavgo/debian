@@ -1,0 +1,36 @@
+# https://alacritty.org/config-alacritty.html
+
+# Colour schemes: https://github.com/alacritty/alacritty-theme/tree/master/themes
+# https://github.com/jnurmine/Zenburn
+# https://design.ubuntu.com/brand/colour-palette/
+# http://ethanschoonover.com/solarized (dark and light)
+# https://github.com/NLKNguyen/papercolor-theme/blob/master/colors/PaperColor.vim#L126 (dark)
+# https://github.com/NLKNguyen/papercolor-theme/blob/master/colors/PaperColor.vim#L36 (light)
+# https://github.com/morhetz/gruvbox (dark and light)
+# https://github.com/sainnhe/everforest (dark and light)
+# https://github.com/catppuccin/alacritty (mocha dark and latte light)
+
+
+# Substitute monospace with a font name from the output of 
+# fc-list : family style
+# https://www.nerdfonts.com/font-downloads
+# Jet Brains Mono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
